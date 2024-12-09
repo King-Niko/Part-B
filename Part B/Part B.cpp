@@ -30,5 +30,9 @@ int main()
     int c = 3;
 
     // Display the output for each case
+    cout << "Half of " << a << " is " << half(a) << endl; // Double
+    cout << "Half of " << b << " is " << half(b) << endl; // Float
+    cout << "Half of " << c << " is " << half(c) << endl; // Integer
 
+    return 0;
 }
